@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <input class="todo--value" type="text" placeholder="Wake Up at 10:AM">
+            <input class="todo--checkbox" type="checkbox">
+        </div>
+        <div class="todo">
+            <input class="todo--value" type="text" placeholder="Prayer">
+            <input class="todo--checkbox" type="checkbox">
+        </div> 
+        <div class="todo">
+            <input class="todo--value" type="text" placeholder="Read The Qur'an">
+            <input class="todo--checkbox" type="checkbox">
+        </div>
+        <div class="todo">
+            <input class="todo--value" type="text" placeholder="Said Morning Azkar">
+            <input class="todo--checkbox" type="checkbox">
+        </div>
+         <div class="todo">
+            <input class="todo--value" type="text" placeholder="Help Family By work">
+            <input class="todo--checkbox" type="checkbox">
+         </div>
+         <div class="todo">
+            <input class="todo--value" type="text" placeholder="Read Book 20 Page">
+            <input class="todo--checkbox" type="checkbox">
+         </div>
+          <div class="todo">
+            <input class="todo--value" type="text" placeholder="Said Evening Azkar">
+            <input class="todo--checkbox" type="checkbox">
+    </div>
+</body>
+</html>
