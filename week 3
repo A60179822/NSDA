@@ -38,3 +38,41 @@
     </div>
 </body>
 </html>
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0,15);
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1cm;
+}
+
+.todo--value {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: "Quicksand" , sans-serif;
+    font-size: 1cm;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.todo:has(.todo--checkbox:checked){
+    color: #555555;
+    background: #eeeeee;
+    text-decoration: line-through;
+    order: 1;
+}
+
+
+
+
+
+
+.
