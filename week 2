@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My To -Do List</h1>
+        <div class="input-area">
+            <input type="text" id="task-input" placeholder="Add a new task">
+            <button id="add -task-btn">Add Task</button>
+        </div>
+        <ul id="Task List">
+         <li>
+            <span>Wake Up at 10:30 AM</span>
+            <button class="delete-btn">Delete</button>
+         </li> 
+         <li>
+            <span>I Prayer</span>
+               <button class="delete-btn">Delete</button>
+         </li>
+         <li>
+            <span>Read The Qur'an</span>
+            <button class="delete-btn">Delete</button>
+         </li>
+         <li>
+            <span>Said Morning Azkar</span>
+            <button class="delete-btn">Delete</button>  
+         </li> 
+         <li>
+            <span>Help Family By work</span>
+            <button class="delete-btn">Delete</button>
+         </li>
+         <li>
+            <span>Read The Book 20 Page</span>
+            <button class="delete-btn">Delete</button>
+         </li>
+         <li>
+            <span>Said Evening Azkar </span>
+            <button class="delete-btn">Delete</button>
+         </li> 
+        </ul>
+    </div>
+    
+</body>
+</html>
