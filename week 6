@@ -1,0 +1,6 @@
+let name =("sumeya");
+console.log(typeof name);
+id=4048
+console.log(typeof id)
+completed=true
+console.log(typeof completed)
