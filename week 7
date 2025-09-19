@@ -1,0 +1,8 @@
+let hasid=true
+let completed=true
+
+if(hasid&&(completed||hasnotid)){
+  console.log("Allowed to participate");
+}else{
+  console.log("Not allowed");
+}
