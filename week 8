@@ -2,3 +2,7 @@ loop
 let tasks=['call to umi','read the book','visit my firends'];
 for(let task of tasks){
   console.log(task);}
+array
+let tasks=['call to umi','read the book','visit my frindes'];
+console.log(tasks[0]);
+console.log(tasks[1]);
