@@ -1,0 +1,7 @@
+const taskList=document.getElementById("taskList");
+function addTask(text){
+  const li=document.createElement("li");
+  li.textContent=text +"×";
+  li.addEventListener("click" ,()=> li.remove());
+  taskList.appendChild(li);
+}
