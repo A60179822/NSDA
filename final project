@@ -1,39 +1,5 @@
 .......:
-document.addEventListener('DOMContentLoaded',()=>{
-    const taskInput=document.getElementById('taskInput');
-    const addTaskBtn=document.getElementById('addTaskBtn');
-    const taskList=document.getElementById('taskList');
 
-    addTaskBtn.addEventListener('click',()=>{
-        const taskText=taskInput.Value.trim();
-        if(taskText!=="){
-            addTask(taskText);
-        taskInput.Value=";
-        }
-    });
-
-    function addTask(taskText){
-    const listitem=document.createElement('li');
-
-    const taskSpan=document.createElement('span');
-     taskSpan.textContent=taskText;
-     taskSpan.classList.add('task-text');
-     taskSpan.addEventListener('click''()=>{
-
-        listitem.classList.toggle('completed');
-        });
-
-        const deleteBtn=document.createElement('button');
-        deleteBtn.textContent='Delete';
-        deleteBtn.addEventListener('click',()=>{
-            taskList.removeChild(listitem);
-        });
-
-        listitem.appendChild(taskSpan);
-        listitem.appendChild(deleteBtn);
-        taskList.appendChild(listitem);
-}
-});
 
 <!DOCTYPE html>
 <html lang="en">
@@ -150,3 +116,38 @@ h1{
 #taskList li button:hover {
     background-color: #c82333;
 }
+document.addEventListener('DOMContentLoaded',()=>{
+    const taskInput=document.getElementById('taskInput');
+    const addTaskBtn=document.getElementById('addTaskBtn');
+    const taskList=document.getElementById('taskList');
+
+    addTaskBtn.addEventListener('click',()=>{
+        const taskText=taskInput.Value.trim();
+        if(taskText!=="){
+            addTask(taskText);
+        taskInput.Value=";
+        }
+    });
+
+    function addTask(taskText){
+    const listitem=document.createElement('li');
+
+    const taskSpan=document.createElement('span');
+     taskSpan.textContent=taskText;
+     taskSpan.classList.add('task-text');
+     taskSpan.addEventListener('click''()=>{
+
+        listitem.classList.toggle('completed');
+        });
+
+        const deleteBtn=document.createElement('button');
+        deleteBtn.textContent='Delete';
+        deleteBtn.addEventListener('click',()=>{
+            taskList.removeChild(listitem);
+        });
+
+        listitem.appendChild(taskSpan);
+        listitem.appendChild(deleteBtn);
+        taskList.appendChild(listitem);
+}
+});
